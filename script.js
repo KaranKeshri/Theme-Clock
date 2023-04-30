@@ -6,8 +6,11 @@ const minuteEl = document.querySelector('.minute')
 
 
 const secondEl = document.querySelector('.second')
+
 const timeEl = document.querySelector('.time')
+
 const dateEl = document.querySelector('.date')
+
 const toggle = document.querySelector('.toggle')
 
 
@@ -30,6 +33,7 @@ toggle.addEventListener('click', (e) => {
         
         e.target.innerHTML = 'Dark mode'
         
+        
     } else {
         
         
@@ -37,7 +41,9 @@ toggle.addEventListener('click', (e) => {
         
         
         e.target.innerHTML = 'Light mode'
+        
     }
+    
 })
 
 
@@ -56,6 +62,7 @@ function setTime() {
     const hours = time.getHours()
     
     const hoursForClock = hours >= 13 ? hours % 12 : hours;
+    
     const minutes = time.getMinutes()
     
     const seconds = time.getSeconds()
