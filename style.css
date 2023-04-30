@@ -7,7 +7,6 @@
   --primary-color: #000;
   --secondary-color: #fff;
 }
-
 html {
   transition: all 0.5s ease-in;
 }
@@ -29,7 +28,6 @@ body {
   overflow: hidden;
   margin: 0;
 }
-
 .toggle {
   cursor: pointer;
   background-color: var(--primary-color);
@@ -40,7 +38,6 @@ body {
   position: absolute;
   top: 100px;
 }
-
 .toggle:focus {
   outline: none;
 }
@@ -87,7 +84,6 @@ body {
   transform: translate(-50%, -50%);
   border-radius: 50%;
 }
-
 .center-point::after {
   content: '';
   background-color: var(--primary-color);
@@ -99,11 +95,9 @@ body {
   transform: translate(-50%, -50%);
   border-radius: 50%;
 }
-
 .time {
   font-size: 60px;
 }
-
 .date {
   color: #aaa;
   font-size: 14px;
